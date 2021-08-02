@@ -1,0 +1,17 @@
+var firstname="aditi";
+var lastname="nayak";
+var fullname=firstname.concat(lastname);
+console.log(fullname);
+document.getElementById("ex1").innerHTML=fullname;
+var sports=["Football","Badminton","Basketball","Kabbadi"];
+sports.push("Cricket");
+sports.pop();
+sports.sort();
+sports.reverse();
+sports.unshift("Cricket");
+console.log(sports);
+document.getElementById("ex2").innerHTML=sports;
+var number=["500","10000","1","6","0","91"];
+var max_no=Math.max.apply(Math,number);
+console.log(max_no);
+document.getElementById("ex3").innerHTML=max_no;
